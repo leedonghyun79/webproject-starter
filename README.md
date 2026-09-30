@@ -25,11 +25,18 @@
 
 ## 🚀 시작 방법
 
-### 1️⃣ 새 프로젝트 생성
+### 1️⃣ 새 프로젝트 생성 (이 폴더 복사)
 
 ```bash
-cp -r ~/projects/loopa ~/projects/my-project
+# 현재 Loopa 폴더를 새 프로젝트로 복사
+cp -r . ~/projects/my-project
 cd ~/projects/my-project
+
+# 또는
+cp -r ~/projects/init_project_setting ~/projects/my-new-project
+cd ~/projects/my-new-project
+
+# 의존성 설치
 npm install
 cd client && npm install
 cd ../server && npm install
