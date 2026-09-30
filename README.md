@@ -25,6 +25,34 @@
 
 ## 🚀 시작 방법
 
+### 0️⃣ Claude Code `/nextjs-boilerplate` 스킬 세팅 (선택)
+
+**전역 스킬로 설정하면 `/nextjs-boilerplate` 명령어 사용 가능:**
+
+```bash
+# 1. 스킬 파일을 전역 스킬 디렉토리에 복사
+cp -r .claude/skills/nextjs-boilerplate ~/.claude/skills/
+
+# 또는 Windows:
+Copy-Item -Recurse ".\.claude\skills\nextjs-boilerplate" "$env:USERPROFILE\.claude\skills\"
+
+# 2. Claude Code 재시작
+# → /nextjs-boilerplate 스킬 사용 가능
+```
+
+**사용:**
+```
+Claude에 입력:
+/nextjs-boilerplate
+
+스킬 지침 확인 → 터미널에서:
+npm run create-nextjs ./my-app
+cd my-app
+npm run dev
+```
+
+---
+
 ### 1️⃣ 새 프로젝트 생성 (이 폴더 복사)
 
 ```bash
