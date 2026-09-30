@@ -1,14 +1,14 @@
-﻿# 🚀 Loopa — NestJS + Next.js 초기 세팅 템플릿
+﻿# 🚀 WebProject Starter — NestJS + Next.js 풀스택 템플릿
 
-> **신규 PixelConnect 프로젝트의 자동 워크플로우 보일러플레이트**  
+> **PixelConnect 신규 웹 프로젝트의 자동 워크플로우 보일러플레이트**  
 > PRD(요구사항)만 전달하면 Claude가 설계 → 구현 → 리뷰 → 학습까지 **자동으로 진행**합니다.
 
 ## 📋 개요
 
-**Loopa**는 PixelConnect의 모든 NestJS + Next.js 신규 프로젝트를 위한 **초기 세팅 템플릿**입니다.
+**WebProject Starter**는 PixelConnect의 모든 NestJS + Next.js 신규 프로젝트를 위한 **범용 초기 세팅 템플릿**입니다.
 
 ### 🎯 목적
-- **보일러플레이트**: 새 프로젝트는 이 폴더를 복사해서 시작
+- **범용 템플릿**: 어떤 신규 프로젝트든 이 폴더를 복사해서 시작
 - **자동 워크플로우**: PRD를 전달하면 Claude가 plan → 구현 → review → learn 자동 진행
 - **토큰 효율**: 경량 하네스로 필요한 절차만 실행 (70~80% 토큰 절감)
 
