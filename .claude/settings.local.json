@@ -27,7 +27,20 @@
       "Bash(findstr \":3000\")",
       "Bash(curl -s http://localhost:3000)",
       "Bash(pkill -f \"nest start\")",
-      "Bash(node -e \"const config = require\\('./dist/config/database.config.ts'\\); console.log\\('Config loads successfully'\\)\")"
+      "Bash(node -e \"const config = require\\('./dist/config/database.config.ts'\\); console.log\\('Config loads successfully'\\)\")",
+      "WebFetch(domain:news.hada.io)",
+      "Edit(/.claude/skills/plan/**)",
+      "Edit(/.claude/skills/debug/**)",
+      "Edit(/.claude/skills/review/**)",
+      "Edit(/.claude/skills/learn/**)",
+      "Edit(/.claude/skills/prd/**)",
+      "mcp__claude_ai_Notion__notion-create-pages",
+      "Edit(~/.claude/skills/pixelconnect-standards/**)",
+      "Edit(~/.claude/skills/nextjs-boilerplate/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\skybl\\.claude\\skills\\pixelconnect-standards",
+      "C:\\Users\\skybl\\.claude\\skills"
     ]
   }
 }

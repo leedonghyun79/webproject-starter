@@ -1,11 +1,11 @@
-﻿# 🚀 WebProject Starter — NestJS + Next.js 풀스택 템플릿
+﻿# 🚀 NextJS Boilerplate — NestJS + Next.js 풀스택 템플릿
 
-> **PixelConnect 신규 웹 프로젝트의 자동 워크플로우 보일러플레이트**  
+> **PixelConnect의 NestJS + Next.js 자동 워크플로우 보일러플레이트**  
 > PRD(요구사항)만 전달하면 Claude가 설계 → 구현 → 리뷰 → 학습까지 **자동으로 진행**합니다.
 
 ## 📋 개요
 
-**WebProject Starter**는 PixelConnect의 모든 NestJS + Next.js 신규 프로젝트를 위한 **범용 초기 세팅 템플릿**입니다.
+**NextJS Boilerplate**는 PixelConnect의 모든 NestJS + Next.js 신규 프로젝트를 위한 **범용 초기 세팅 템플릿**입니다.
 
 ### 🎯 목적
 - **범용 템플릿**: 어떤 신규 프로젝트든 이 폴더를 복사해서 시작
@@ -28,12 +28,12 @@
 ### 1️⃣ 새 프로젝트 생성 (이 폴더 복사)
 
 ```bash
-# 현재 Loopa 폴더를 새 프로젝트로 복사
+# 현재 NextJS Boilerplate 폴더를 새 프로젝트로 복사
 cp -r . ~/projects/my-project
 cd ~/projects/my-project
 
 # 또는
-cp -r ~/projects/init_project_setting ~/projects/my-new-project
+cp -r ~/projects/nextjs-boilerplate ~/projects/my-new-project
 cd ~/projects/my-new-project
 
 # 의존성 설치
@@ -115,7 +115,7 @@ PRD 전달
 ## 📁 폴더 구조
 
 ```
-loopa/
+nextjs-boilerplate/
 ├── README.md
 ├── CLAUDE.md
 ├── .claude/skills/          # 5개 스킬 탑재
@@ -164,7 +164,7 @@ npm run lint
 
 ## ❓ FAQ
 
-**Q: Loopa를 새 프로젝트로 어떻게 쓰나요?**  
+**Q: NextJS Boilerplate을 새 프로젝트로 어떻게 쓰나요?**  
 A: 폴더 복사 → PRD 작성 → Claude에 전달 → 자동 진행
 
 **Q: 사용자는 언제 개입하나요?**  

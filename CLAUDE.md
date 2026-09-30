@@ -1,6 +1,6 @@
-# Project Contract — WebProject Starter (NestJS + Next.js 풀스택 템플릿)
+# Project Contract — NextJS Boilerplate (NestJS + Next.js 풀스택 템플릿)
 
-**목표:** PixelConnect 신규 프로젝트의 NestJS + Next.js 모노레포 초기 세팅 도구  
+**목표:** PixelConnect의 NestJS + Next.js 모노레포 보일러플레이트  
 **사용:** 이 폴더를 복사해서 새 프로젝트로 시작 → PRD 전달하면 Claude가 자동으로 구현·리뷰·학습까지 진행
 
 ## Stack & Commands
