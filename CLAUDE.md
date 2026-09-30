@@ -1,7 +1,7 @@
-# Project Contract — Loopa (학습용 모노레포)
+# Project Contract — Loopa (NestJS + Next.js 초기 세팅 템플릿)
 
-**목표:** 당근마켓 클론으로 NestJS + Next.js 풀스택 학습  
-**작업 방식:** PRD/요구사항 문서를 전달하면 Claude가 설계·구현·리뷰·학습까지 자동 진행
+**목표:** PixelConnect 신규 프로젝트의 NestJS + Next.js 모노레포 초기 세팅 도구  
+**사용:** 이 폴더를 복사해서 새 프로젝트로 시작 → PRD 전달하면 Claude가 자동으로 구현·리뷰·학습까지 진행
 
 ## Stack & Commands
 
@@ -36,6 +36,13 @@ PRD 전달
 
 ## See Also
 
-- 프로젝트 표준, 폴더 구조 → `pixelconnect-standards` 스킬
+- 프로젝트 표준, 폴더 구조 → `/webdev-setting` 스킬
 - NestJS 스캐폴딩 → `nestjs-boilerplate` 스킬
 - 스킬 목록 → `.claude/skills/` (plan, debug, review, learn, prd)
+
+## 사용 방법
+
+1. **이 폴더를 복사** → 새 프로젝트명으로 생성
+2. **PRD/요구사항 문서 작성** → Loopa의 CLAUDE.md 규칙 적용
+3. **Claude에 PRD 전달** → `prd` 스킬 자동 시작
+4. **질문 답변 + 플랜 확인** (1회씩) → 자동 구현·리뷰·학습
